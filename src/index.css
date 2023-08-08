@@ -8,7 +8,6 @@ body {
 input::placeholder,
 textarea::placeholder {
   font-family: "Montserrat", sans-serif;
-  color: #aaa;
 }
 
 input:focus,
@@ -25,7 +24,7 @@ nav button {
   transition: 0.4s;
   font-size: 1em;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-seri;
 }
 
 a:hover,
@@ -42,11 +41,11 @@ form {
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1px;
+  margin-bottom: 1em;
 }
 
 label span {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.3em;
   font-weight: bold;
   text-align: left;
 }
@@ -56,24 +55,29 @@ textarea {
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: 0.8em 0;
+  padding: 0.8em 0em;
   background-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
 }
 
 .btn {
   background-color: #1a8918;
   color: #fff;
-  cursor: pointer;
   text-align: center;
+  cursor: pointer;
   border-radius: 10px;
   width: 120px;
   font-weight: bold;
   border: none;
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 1em;
 }
 
-.btn-btn-dark {
+.btn.btn-dark {
   background-color: #000;
   border-radius: 0;
 }
