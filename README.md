@@ -1,5 +1,5 @@
 # Mini Blog
-## Quer testar o plataforma? O deploy já foi feito, e você pode testá-la [aqui!](https://raissagd.github.io/mini-blog/)
+## Quer testar a plataforma? O deploy já foi feito, e você pode testá-la [aqui!](https://raissagd.github.io/mini-blog/)
 
 ![2](https://github.com/raissagd/mini-blog/assets/95766853/90cfe315-da75-462c-b042-10172fe3a65a)
 ![1](https://github.com/raissagd/mini-blog/assets/95766853/cccd4d71-0a06-45b5-86b0-2c4f6a5a1576)
